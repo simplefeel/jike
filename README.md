@@ -51,4 +51,9 @@
 3.  打开 Xcode,将 fonts 添加到项目中，操作就是在 Xcode 中，点击项目-->右键 Add file to [项目名] -->找到项目中的 react-native-vector-icons 里面的 fonts 添加
 4.  xcode 重新编译
 
+## 资源网站
+
+* [react-native 中文网站](https://reactnative.cn/docs/0.51/flatlist.html#refreshing)
+* [react native 学习资源汇总](https://github.com/crazycodeboy/react-native-awesome/blob/master/README.md)
+
 > 持续更新中....
