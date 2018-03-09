@@ -1,6 +1,6 @@
 ![](https://user-gold-cdn.xitu.io/2018/3/8/16204a5a018bc35c?w=368&h=709&f=png&s=174532)
 
-# React Native 实例，从入门到深入学会 react-native 开发
+# React Native 实例，带你入门 react-native 开发
 
 > 本实例本人也是参考网上各种资源，一步步开发而来，功能比较简单，但作为入门实例还是值得一看的，基本上能对 react-native 有一个基本的了解，我会从自身学习的角度上描述自己碰到的问题以及应对方案，希望能帮助到想学习 react-native 开发的童鞋，欢迎一起讨论学习。
 
