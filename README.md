@@ -2,21 +2,14 @@
 
 # React Native 实例，从入门到深入学会 react-native 开发
 
-> 本实例本人也是参考网上各种资源，一步步开发而来，目前功能还比较简单，但作为入门实例还是值得一看的，基本上能对 react-native 有一个基本的了解，我会从自身学习的角度上描述自己碰到的问题以及应对方案，希望能帮助到想学习 react-native 开发的童鞋。
+> 本实例本人也是参考网上各种资源，一步步开发而来，功能比较简单，但作为入门实例还是值得一看的，基本上能对 react-native 有一个基本的了解，我会从自身学习的角度上描述自己碰到的问题以及应对方案，希望能帮助到想学习 react-native 开发的童鞋。
 
 ## 目录
 
-* [代码结构](#代码结构)
 * [运行](#运行)
-* [功能分解](#入门分解)
+* [功能](#功能)
 * [主要代码解析及踩坑实例](#主要代码解析及踩坑实例)
 * [资源网站](#资源网站)
-
-## 代码结构
-
-![](https://user-gold-cdn.xitu.io/2018/3/8/1620498c3d183743?w=330&h=872&f=png&s=75201)
-
-按照官网教程搭建好开发环境，通过 react-native init [项目名]可以初始化一个项目，以上截图是我的项目结构，在初始化的基础上我增加了 views 文件夹，里面主要用来存放页面、组件、工具函数等。工程根目录下 index.js 为入门文件，通过方法 AppRegistry.registerComponent("jike", () => App)注册，App 就是入口组件;
 
 ## 运行（Usage）
 
@@ -26,9 +19,9 @@
 2.  安装依赖 `yarn install`
 3.  运行命令 `react-native run-ios`
 
-## 功能分解（逐步增加中）
+## 功能
 
-目前实例主要实现的功能有：
+实例主要实现的功能有：
 
 * 底部 Tap 切换
 * 顶部导航栏切换
@@ -55,5 +48,3 @@
 
 * [react-native 中文网站](https://reactnative.cn/docs/0.51/flatlist.html#refreshing)
 * [react native 学习资源汇总](https://github.com/crazycodeboy/react-native-awesome/blob/master/README.md)
-
-> 持续更新中....
