@@ -48,3 +48,4 @@
 
 * [react-native 中文网站](https://reactnative.cn/docs/0.51/flatlist.html#refreshing)
 * [react native 学习资源汇总](https://github.com/crazycodeboy/react-native-awesome/blob/master/README.md)
+* [一个 react-native 学习特别好的网站，有特别多的小的 react-navtive 实例，强力推荐！](https://school.shoutem.com)
