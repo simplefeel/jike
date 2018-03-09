@@ -13,19 +13,15 @@
 
 ## 运行（Usage）
 
-前提是已经搭建好 react-native 开发环境,clone or download 项目后，终端进入项目根目录
+前提是已经搭建好 react-native 开发环境，clone or download 项目后，终端进入项目根目录
 
 ```
 # install dependencies
 yarn install or npm install
 
 # serve with reload at Simulate
-npm run dev
+react-native run-ios
 ```
-
-1.  clone or download 项目
-2.  安装依赖 `yarn install`
-3.  运行命令 `react-native run-ios`
 
 ## 功能
 
