@@ -2,13 +2,14 @@ import React from "react";
 import { Button, View, Text, StyleSheet } from "react-native";
 import { StackNavigator } from "react-navigation";
 import ScrollableTabView from "../../components/Tabs.js";
-import ListView from "../../components/ListView.js";
 
 export default class HomeScreen extends React.Component {
   render() {
+    console.log(this.props);
+
     return (
       <View style={styles.container}>
-        <ScrollableTabView />
+        <ScrollableTabView navigation={this.props.navigation} />
       </View>
     );
   }

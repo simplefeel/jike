@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, StyleSheet,Image } from "react-native";
+import { Text, View, StyleSheet, Image } from "react-native";
 
 import ScrollableTabView, {
   DefaultTabBar
@@ -7,7 +7,7 @@ import ScrollableTabView, {
 
 import ListView from "./ListView.js";
 
-export default () => {
+export default props => {
   return (
     <ScrollableTabView
       style={{ marginTop: 0 }}
@@ -20,7 +20,7 @@ export default () => {
       renderTabBar={() => <DefaultTabBar tabStyle={{ paddingBottom: 0 }} />}
     >
       <View tabLabel="关注">
-        <ListView />
+        <ListView {...props} />
       </View>
       <View tabLabel="推荐">
         <Image

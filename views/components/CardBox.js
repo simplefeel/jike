@@ -59,7 +59,10 @@ class CardBox extends Component {
             </Button>
           </Left>
           <Body>
-            <Button transparent>
+            <Button
+              transparent
+              onPress={() => this.props.navigation.navigate("Details")}
+            >
               <Icon active name="chatbubbles" />
               <Text>4 Comments</Text>
             </Button>

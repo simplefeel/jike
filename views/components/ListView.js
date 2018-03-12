@@ -49,7 +49,7 @@ class ListView extends Component {
       showFoot: false
     };
   }
-  _renderItem = ({ item }) => <CardBox item={item} />;
+  _renderItem = ({ item }) => <CardBox item={item} {...this.props} />;
 
   onRefresh = () => {
     const { data, refreshing } = this.state;
