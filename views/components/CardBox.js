@@ -20,6 +20,7 @@ import {
   Body,
   Right
 } from "native-base";
+import { withNavigation } from "react-navigation";
 
 class CardBox extends Component {
   render() {
@@ -76,4 +77,4 @@ class CardBox extends Component {
   }
 }
 
-export default CardBox;
+export default withNavigation(CardBox);

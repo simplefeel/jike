@@ -5,11 +5,9 @@ import ScrollableTabView from "../../components/Tabs.js";
 
 export default class HomeScreen extends React.Component {
   render() {
-    console.log(this.props);
-
     return (
       <View style={styles.container}>
-        <ScrollableTabView navigation={this.props.navigation} />
+        <ScrollableTabView />
       </View>
     );
   }
